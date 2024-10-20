@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Poem AI Generator</title>
+
+</head>
+<body>
+    <div class="container">
+    <header>
+    <h1>AI English Poem Generator</h1>
+    </header>
+    <main>
+        <div class="form-container">
+        <form id="generator-form">
+            <input type="text" placeholder="Enter the topic of the English poem"
+            autofocus required autocomplete="off" class="enter-info" id="user-instructions" />
+            <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">i.e Flower, Money or any choice</div>
+        </div>
+        <div class="poem hidden" id="poem">
+        </div>
+    </main>
+    
+
+    <footer>
+        This was coded by 
+        <a href="https://github.com/Thandi06" target="_blank">Thandi Sithole</a>
+        and is
+        <a href="https://github.com/Thandi06/poem-AI.git" target="_blank">open-sourced on GitHub</a>
+        and is 
+        <a href="https://thandipoemai.netlify.app/" target="_blank">hosted on Netlify.</a>
+
+
+    </footer>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
